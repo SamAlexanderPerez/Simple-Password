@@ -16,6 +16,6 @@ function getString(str){
   }
   catch(e){
     console.log(e.message);
-    getString();
+    getString("FeelsGoodMan");
   }
 }
